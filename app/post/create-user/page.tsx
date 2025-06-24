@@ -26,7 +26,7 @@ export default function NewPost() {
   }
 
   return (
-    <div className="max-w-2xl mx-auto p-4">
+    <div className="max-w-2xl mx-auto p-4 grid place-items-center">
       <h1 className="text-2xl font-bold mb-6">Create New User</h1>
       <Form action={createPost} className="space-y-4 w-sm border rounded p-4">
         <div>
